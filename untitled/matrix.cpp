@@ -16,7 +16,7 @@ int in_array(int x, int * arr, int uzge, int kol){
 Matrix::Matrix(){
 }
 
-Matrix::Matrix(double a){    // еденичная матрица
+Matrix::Matrix(double a){    // единичная матрица
     a++;
     nenol = n;
     value = new int [n];
